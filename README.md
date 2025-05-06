@@ -7,3 +7,5 @@ vamos estudar
 - estrutura de repetição
 - vetor
 - interação com o DOM
+  
+ keylane santos
