@@ -17,7 +17,13 @@
 // Arrays 
 let nome = "keylane"
 let idade = 22
+console.log(nome)
+console.log(idade)
 
+
+nome = "renata"
+idade = 25
+console.log(nome,idade)
 // Funções básicas
 // Escopo
 
