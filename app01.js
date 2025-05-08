@@ -28,6 +28,19 @@ console.log(nome,idade)
 // Escopo
 
 
+
+//tipos de Dados
+// text == string
+let cidade = "SBO"
+
+//numerico == number
+let salario = 1500.50
+
+//boleano == boolean
+let fumante = false 
+
+console.log (typeof cidade)
+
 // Alterar conteúdo e atributos *
 // incluir js em página html *
 // Eventos *
