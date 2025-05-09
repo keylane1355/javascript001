@@ -20,6 +20,8 @@ console.log(10<10) // menor que
 console.log(!10>2)
 console.log("10"+"15")
 
+// == OU apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, 
+// o resultado so sera falso quando todos forem falsos  
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
@@ -67,3 +69,23 @@ console.log (typeof cidade)
 
 // Spread e REST  ************
  
+
+
+
+// DESAFIO
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+//faça um codigo que acrecente 17% ao preço imprima
+ 
+ precoAcrescimo = preco + preco * 0.17
+ console.log("preço com acréscimo: " + precoAcrescimo.toFixed(2))
+
+ // faça um codigo que desconte 7% de preço e imprima
+ precoDesconto = preco - preco * 0.07
+ console.log(" preço com Desconto: " + precoDesconto)
+
+
+
+        
+  
