@@ -23,8 +23,7 @@ console.log("10"+"15")
 // == OU apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, 
 // o resultado so sera falso quando todos forem falsos  
 // Estrutura
-//     Estrutura de controle/decisão
-//     Laços de repetição
+
 
 // Arrays 
 let nome = "keylane"
@@ -88,4 +87,29 @@ let precoDesconto = 0
 
 
         
-  
+  //     Estrutura de controle/decisão7
+  if (10>5){
+    console.log("10 é maior que 5")
+  } else{
+    console.log("é falso ")
+  }
+//     Laços de repetição
+
+let idadeDoCandidato = 17
+if (idadeDoCandidato >= 18){
+    console.log("pode dirigir")
+}else {
+    console.log ("nao pode dirigir")
+}
+
+// DESAFIO 
+//Fsçs um codigo que verifique se o salario do funcionamento é maior que 5000, se for mostre a mensagem "salario OK" 
+// se nao for mostre a mensagem " precisa aumento" de x reais 
+
+let Salariofuncionario = 3000
+let aumento = 5000 - Salariofuncionario
+if (Salariofuncionario > 5000){
+    console.log ("Salario OK")
+} else{
+    console.log("precisa aumento de" + aumento )
+}
